@@ -1,0 +1,34 @@
+{
+  "name": "requirements-memory",
+  "version": "0.1.0",
+  "description": "Structured local memory for business requirements, decisions, and project context across Codex workspaces.",
+  "author": {
+    "name": "Local developer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "requirements",
+    "memory",
+    "business-space",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Requirements Memory",
+    "shortDescription": "Capture and retrieve structured requirements memory.",
+    "longDescription": "Requirements Memory stores confirmed requirement facts, decisions, constraints, and business context in a local, versioned knowledge base that can span multiple workspaces.",
+    "developerName": "Local developer",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find relevant requirements memory before implementing.",
+      "Propose memory entries from this requirement discussion.",
+      "Bind this workspace session to a business space."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

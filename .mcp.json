@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "requirements-memory": {
+      "command": "node",
+      "args": [
+        "scripts/start-server.mjs"
+      ]
+    }
+  }
+}
