@@ -1,5 +1,7 @@
 # Requirements Memory
 
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 Requirements Memory is a local Codex plugin for recording, retrieving, and maintaining structured business requirements memory across multiple code workspaces.
 
 It is designed for teams or individuals who discuss requirements with Codex, then later want Codex to remember concrete requirement facts, product decisions, constraints, business rules, acceptance criteria, and cross-repository context without relying on vague conversation history.
@@ -345,4 +347,3 @@ tests/
 ## License
 
 MIT
-
